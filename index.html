@@ -12,18 +12,18 @@
     <link rel="stylesheet" type="text/css" href="js/slick-theme.css" />
   </head>
   <body>
-    <header>
+    <header id='home'>
       <nav>
         <img src="img/logo.png" alt="PH Med Infectologia Hospitalar" />
         <ul>
-          <li><a href="#" onclick="goToLink('home')">Home</a></li>
-          <li><a href="#" onclick="goToLink('quem-somos')">Quem Somos</a></li>
+          <li><a href="#home" ">Home</a></li>
+          <li><a href="#quem-somos" ">Quem Somos</a></li>
           <li>
-            <a href="#" onclick="goToLink('nossos-servicos')">Serviços</a>
+            <a href="#nossos-servicos" ">Serviços</a>
           </li>
-          <li><a href="#">Clientes</a></li>
-          <li><a href="#">Localização</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li><a href="#local">Localização</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
       <section>
@@ -237,7 +237,12 @@
         </div>
       </div>
     </footer>
-
+    <div class="post-footer">
+      <h5>
+        Copyright © 2020 - PH Med Infectologia LTDA. Responsável Técnico Dr
+        Raphael Bertechini - CRM/SC 9182 / RQE 7580
+      </h5>
+    </div>
     <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
@@ -260,15 +265,16 @@
           autoplaySpeed: 2000
         });
       });
-      function goToLink(anchor) {
-        var element = document.getElementById(anchor);
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest"
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+          });
         });
-        return false;
-      }
+      });
     </script>
   </body>
 </html>
