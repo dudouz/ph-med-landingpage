@@ -234,9 +234,6 @@ header section {
   margin: 32px auto;
 }
 
-.slide div:nth-child(1) {
-  /* width: 60%; */
-}
 .slide h2 {
   color: #42728f;
   font-weight: 700;
@@ -247,10 +244,6 @@ header section {
 .slide p {
   max-width: 75%;
   line-height: 38px;
-}
-
-.slide div:nth-child(2) {
-  /* width: 40%; */
 }
 
 main section {
@@ -411,4 +404,73 @@ h5 {
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+@media (max-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .slide {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .slider {
+    width: 80%;
+  }
+  .slider h2 {
+    font-size: 30px;
+  }
+  .slide img {
+    width: 100%;
+  }
+  .slide p {
+    max-width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    padding: 0;
+  }
+  #contato {
+    width: 100%;
+  }
+  #local {
+    width: 100%;
+    padding-bottom: 96px;
+  }
+  .post-footer {
+    padding: 0 24px;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  .client-list {
+    margin-top: 64px;
+    flex-direction: column;
+    min-width: 100%;
+  }
+  .client-list li {
+    margin-top: 16px;
+  }
+  .title-column {
+    margin: 0 32px;
+  }
+  .text-column {
+    width: 100%;
+    flex-direction: column;
+  }
+  #nossos-servicos {
+    display: none;
+  }
 }
