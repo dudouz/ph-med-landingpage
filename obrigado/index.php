@@ -255,12 +255,14 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
             </h2>
           </div>
           <div class="text-column">
-            <ul class="client-list">
-              <li><img src="/img/logo-hmrc.png" alt="" /></li>
-              <li><img src="/img/logo-marieta.png" alt="" /></li>
-              <li><img src="/img/logo-oximed.png" alt="" /></li>
-              <li><img src="/img/logo-unimed.png" alt="" /></li>
-              <li><img src="/img/logo-santa-luiza.png" alt="" /></li>
+          <ul class="client-list">
+              <li><img src="img/logo-hmrc.png" alt="" /></li>
+              <li><img src="img/logo-marieta.png" alt="" /></li>
+              <li><img src="img/logo-oximed.png" alt="" /></li>
+              <li><img src="img/logo-unimed.png" alt="" /></li>
+              <li><img src="img/logo-santa-luiza.png" alt="" /></li>
+              <li><img src="img/logo-hosc.png" alt="" /></li>
+              <li><img src="img/logo-hf.png" alt="" /></li>
             </ul>
           </div>
         </div>
