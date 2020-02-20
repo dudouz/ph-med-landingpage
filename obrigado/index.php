@@ -114,8 +114,23 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
-      <section>
+<!-- begin slider -->
+<section>
         <div class="slider">
+          <div>
+            <div class="slide">
+              <div>
+                <h2>Consultoria em Infectologia</h2>
+                <p>
+                  Através de nossa consultoria tornamos seu negócio mais
+                  produtivo e viável, buscando maior efetividade e acompanhando
+                  os resultados constantemente.
+                </p>
+              </div>
+              <img src="/img/ilustra-2.png" alt="Consultoria em infectologia" />
+            </div>
+          </div>
+
           <div>
             <div class="slide">
               <div>
@@ -133,19 +148,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
               </div>
             </div>
           </div>
-          <div>
-            <div class="slide">
-              <div>
-                <h2>Consultoria em Infectologia</h2>
-                <p>
-                  Através de nossa consultoria tornamos seu negócio mais
-                  produtivo e viável, buscando maior efetividade e acompanhando
-                  os resultados constantemente.
-                </p>
-              </div>
-              <img src="/img/ilustra-2.png" alt="Consultoria em infectologia" />
-            </div>
-          </div>
+
           <div>
             <div class="slide">
               <div>
@@ -157,10 +160,12 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                   (Comissão de Controle de Infecção hospitalar).
                 </p>
               </div>
-              <img
-                src="/img/ilustra-1.png"
-                alt="Serviço de controle de Infecções (SCIH)"
-              />
+              <div>
+                <img
+                  src="/img/ilustra-1.png"
+                  alt="Serviço de controle de Infecções (SCIH)"
+                />
+              </div>
             </div>
           </div>
 
@@ -175,14 +180,17 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                   processos
                 </p>
               </div>
-              <img
-                src="/img/ilustra-4.png"
-                alt="Equipes médicas especializadas"
-              />
+              <div>
+                <img
+                  src="/img/ilustra-4.png"
+                  alt="Equipes médicas especializadas"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- end slider -->
     </header>
     <main>
       <section id="quem-somos">
