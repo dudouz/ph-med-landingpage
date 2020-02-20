@@ -392,7 +392,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
 
         element.scrollIntoView({
           behavior: "smooth",
-          block: "start"
+          block: "center"
         });
 
       });
@@ -403,7 +403,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
 
           document.querySelector(this.getAttribute("href")).scrollIntoView({
             behavior: "smooth",
-          block: "start"
+          block: "center"
           });
         });
       });
