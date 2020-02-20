@@ -1,6 +1,6 @@
 <?php
 //1 – Definimos Para quem vai ser enviado o email
-$para = "contato@infectophmed.com.br, ddz.iotti@gmail.com";
+$para = "contato@infectophmed.com.br";
 //2 - resgatar o s dados do email
 $nome = $_POST['nome'];
 $email = $_POST['email'];
@@ -256,13 +256,13 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
           </div>
           <div class="text-column">
           <ul class="client-list">
-              <li><img src="img/logo-hmrc.png" alt="" /></li>
-              <li><img src="img/logo-marieta.png" alt="" /></li>
-              <li><img src="img/logo-oximed.png" alt="" /></li>
-              <li><img src="img/logo-unimed.png" alt="" /></li>
-              <li><img src="img/logo-santa-luiza.png" alt="" /></li>
-              <li><img src="img/logo-hosc.png" alt="" /></li>
-              <li><img src="img/logo-hf.png" alt="" /></li>
+              <li><img src="/img/logo-hmrc.png" alt="" /></li>
+              <li><img src="/img/logo-marieta.png" alt="" /></li>
+              <li><img src="/img/logo-oximed.png" alt="" /></li>
+              <li><img src="/img/logo-unimed.png" alt="" /></li>
+              <li><img src="/img/logo-santa-luiza.png" alt="" /></li>
+              <li><img src="/img/logo-hosc.png" alt="" /></li>
+              <li><img src="/img/logo-hf.png" alt="" /></li>
             </ul>
           </div>
         </div>
