@@ -213,8 +213,8 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
             </p>
 
             <p>
-              Estamos localizados em Balneário Camboriú, na Av. Beira-mar, 3120
-              - Sala 03.
+              Estamos localizados anexos à Oximed, Rua Célio Veiga, 395 - Barreiros, São José - SC, 88111-320
+</p><p>
               <strong>
                 Atendemos todo o estado de Santa Catarina, principalmente na
                 região da Grande Florianópolis, Balneário Camboriú e Vale do
@@ -330,13 +330,14 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
             <span>e Contato</span>
           </h2>
           <p>
-            Estamos localizados em Balneário Camboriú, na Av. Beira-mar, 3120 -
-            Sala 03. Atendemos todo o estado de Santa Catarina, principalmente
+              Estamos localizados anexos à Oximed, Rua Célio Veiga, 395 - Barreiros, São José - SC, 88111-320
+</p>
+<p>Atendemos todo o estado de Santa Catarina, principalmente
             na região da Grande Florianópolis, Balneário Camboriú e Vale do
             Itajaí.
           </p>
           <p>
-            47 <strong>3031 2894</strong> <br />
+            47 <strong>9605-3830</strong> <br />
             <strong>
               <a href="mailto:contato@infectophmed.com.br"
                 >contato@infectophmed.com.br</a
