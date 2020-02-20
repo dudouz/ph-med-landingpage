@@ -1,6 +1,6 @@
 <?php
 //1 – Definimos Para quem vai ser enviado o email
-$para = "ddz.iotti@gmail.com";
+$para = "contato@infectophmed.com.br, ddz.iotti@gmail.com";
 //2 - resgatar o s dados do email
 $nome = $_POST['nome'];
 $email = $_POST['email'];
