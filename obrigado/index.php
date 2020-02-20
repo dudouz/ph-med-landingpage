@@ -1,3 +1,44 @@
+<?php
+//1 – Definimos Para quem vai ser enviado o email
+$para = "ddz.iotti@gmail.com";
+//2 - resgatar o s dados do email
+$nome = $_POST['nome'];
+$email = $_POST['email'];
+$cidade = $_POST['cidade'];
+$instit = $_POST['instit'];
+$tel = $_POST['tel'];
+$msg = $_POST['mensagem'];
+
+
+// 3 - resgatar o assunto digitado no formulário e  grava na variavel
+//$assunto
+$assunto = 'Infecto PH Med - Contato através do site';
+ //4 – Agora definimos a  mensagem que vai ser enviado no e-mail
+
+$mensagem .= "<br>  <strong>Nome:  </strong>".$nome;
+$mensagem .= "<br>  <strong>E-mail:  </strong>".$email;
+$mensagem .= "<br>  <strong>Cidade:  </strong>".$cidade;
+$mensagem .= "<br>  <strong>Empresa:  </strong>".$instit;
+$mensagem .= "<br>  <strong>Telefone:  </strong>".$tel;
+$mensagem .= "<br>  <strong>Mensagem:  </strong>".$msg;
+
+
+//5 – agora inserimos as codificações corretas e  tudo mais.
+$headers =  "Content-Type:text/html; charset=UTF-8\n";
+$headers .= "From:  Site Infecto PH Med <site@infectophmed.com.br>\n";
+//Vai ser //mostrado que  o email partiu deste email e seguido do nome
+$headers .= "X-Sender:  <site@infectophmed.com.br>\n";
+//email do servidor //que enviou
+$headers .= "X-Mailer: PHP  v".phpversion()."\n";
+$headers .= "X-IP:  ".$_SERVER['REMOTE_ADDR']."\n";
+$headers .= "Return-Path:  <site@infectophmed.com.br>\n";
+//caso a msg //seja respondida vai para  este email.
+$headers .= "MIME-Version: 1.0\n";
+
+mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -278,47 +319,7 @@
       <div id="contato">
         <div class="container-footer">
           <h2>Envie uma <br /><span>Mensagem</span></h2>
-          <form action="./obrigado/" method="post">
-            <label for="nome">Nome</label>
-            <input
-              name="nome"
-              type="text"
-              placeholder="Por favor, informe seu nome completo"
-            />
-            <label for="email">E-mail</label>
-            <input
-              name="email"
-              type="email"
-              placeholder="Por favor, informe seu melhor email"
-            />
-            <label for="cidade">Cidade</label>
-            <input
-              name="cidade"
-              type="text"
-              placeholder="Por favor, informe sua localização"
-            />
-            <label for="instituição">Instituição</label>
-            <input
-              name="instit"
-              type="text"
-              placeholder="Em nome de qual instituição/empresa você fala?"
-            />
-            <label for="nome">Telefone</label>
-            <input
-              name="nome"
-              type="tel"
-              placeholder="Por favor, informe seu telefone"
-            />
-            <label for="mensagem">Deixe uma mensagem</label>
-            <textarea
-              rows="50"
-              cols="50"
-              name="mensagem"
-              type="textarea"
-              placeholder="Detalhe mais sua necessidade."
-            ></textarea>
-            <button type="submit">Enviar</button>
-          </form>
+          <h1>Obrigado por entrar em contato. Responderemos prontamente.</h1>
         </div>
       </div>
 
