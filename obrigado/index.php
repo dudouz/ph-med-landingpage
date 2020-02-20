@@ -390,7 +390,10 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
         });
         var element = document.getElementById("contato");
 
-        element.scrollIntoView();
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
 
       });
 
@@ -399,7 +402,8 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
           e.preventDefault();
 
           document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth"
+            behavior: "smooth",
+          block: "start"
           });
         });
       });
