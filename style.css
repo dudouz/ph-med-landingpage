@@ -270,6 +270,7 @@ main section {
 }
 .text-column {
   box-shadow: -20px -30px 51px #00000012;
+  padding: 16px 32px;
 }
 .text-column p {
   line-height: 38px;
