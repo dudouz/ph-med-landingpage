@@ -121,14 +121,13 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
               <div>
                 <h2>Atendimento adulto e pediátrico (Infectologia)</h2>
                 <p>
-                  Através de nossa consultoria tornamos seu negócio mais
-                  produtivo e viável, buscando maior efetividade e acompanhando
-                  os resultados constantemente.
+                  Médicos especialistas para consultorias 24h ou atendimento
+                  presencial nas unidades hospitalares ou clínicas
                 </p>
               </div>
               <div>
                 <img
-                  src="/img/ilustra-3.png"
+                  src="img/ilustra-3.png"
                   alt="Atendimento adulto e pediátrico (Infectologia)"
                 />
               </div>
@@ -144,7 +143,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                   os resultados constantemente.
                 </p>
               </div>
-              <img src="/img/ilustra-2.png" alt="Consultoria em infectologia" />
+              <img src="img/ilustra-2.png" alt="Consultoria em infectologia" />
             </div>
           </div>
           <div>
@@ -159,7 +158,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                 </p>
               </div>
               <img
-                src="/img/ilustra-1.png"
+                src="img/ilustra-1.png"
                 alt="Serviço de controle de Infecções (SCIH)"
               />
             </div>
@@ -170,13 +169,14 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
               <div>
                 <h2>Equipes médicas especializadas</h2>
                 <p>
-                  Através de nossa consultoria tornamos seu negócio mais
-                  produtivo e viável, buscando maior efetividade e acompanhando
-                  os resultados constantemente.
+                  Equipes capacitadas em infectologia e controle de infecção que
+                  auxiliarão a gestão hospitalar, atraves de medidas
+                  preventivas, auditorias e ações que promovam a melhoria dos
+                  processos
                 </p>
               </div>
               <img
-                src="/img/ilustra-4.png"
+                src="img/ilustra-4.png"
                 alt="Equipes médicas especializadas"
               />
             </div>
@@ -309,6 +309,10 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                   Dr Ricardo Dimas Zimmermann<br />
                   <span>CRM 11568 / RQE 7797</span>
                 </h3>
+              </li>
+              <li>
+                <h3>Rafaela Martelosso Secron <br>
+<span>CRM 22723/ RQE 13357</span></h3>
               </li>
             </ul>
           </div>
