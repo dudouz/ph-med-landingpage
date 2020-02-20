@@ -313,7 +313,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                 </h3>
               </li>
               <li>
-                <h3>Rafaela Martelosso Secron <br>
+                <h3>Dra Rafaela Martelosso Secron <br>
 <span>CRM 22723/ RQE 13357</span></h3>
               </li>
             </ul>
