@@ -373,6 +373,10 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
           autoplay: true,
           autoplaySpeed: 2000
         });
+        var element = document.getElementById("contato");
+
+        element.scrollIntoView();
+
       });
 
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
