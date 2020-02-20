@@ -318,7 +318,7 @@ footer {
   background: #fcfaf3;
   margin-top: -96px;
   width: 50%;
-  box-shadow: 4px 2px 7px #4e4e4e33;
+  box-shadow: -26px -28px 87px #4e4e4e33;
   z-index: 9;
 }
 
@@ -326,6 +326,7 @@ footer {
   background: #70a7c0;
   width: 50%;
   height: 512px;
+  box-shadow: 26px -22px 51px #4e4e4e33;
 }
 
 #contato form {
@@ -469,8 +470,10 @@ h5 {
   }
   #contato {
     width: 100%;
+    box-shadow: unset;
   }
   #local {
+    box-shadow: unset;
     width: 100%;
     padding-bottom: 96px;
   }
