@@ -219,15 +219,14 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
               fornecemos orientações em decisões técnicas e promovemos ações que
               geram impacto positivo na gestão hospitalar.
             </p>
-
             <p>
-              Estamos localizados anexos à Oximed, Rua Célio Veiga, 395 - Barreiros, São José - SC, 88111-320
-</p><p>
-              <strong>
-                Atendemos todo o estado de Santa Catarina, principalmente na
-                região da Grande Florianópolis, Balneário Camboriú e Vale do
-                Itajaí.
-              </strong>
+              Nosso escritório é anexo à Oximed, Rua Célio Veiga, 395 -
+              Barreiros, São José - SC, 88111-320
+            </p>
+            <p>
+              Atendemos todo o estado de Santa Catarina, principalmente a
+              região da grande Florianópolis, Balneário Camboriú e Vale do
+              Itajaí.
             </p>
           </div>
         </div>
@@ -285,7 +284,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
             </h2>
           </div>
           <div class="text-column">
-            <ul class="team-list">
+          <ul class="team-list">
               <li>
                 <h3>
                   Dr Cleyton Gregory Silva <br />
@@ -302,7 +301,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
 
               <li>
                 <h3>
-                  Dra Juliane Vianna <br />
+                  Dra Juliane Nunes Vianna <br />
                   <span>CRM 15619 / RQE 15233</span>
                 </h3>
               </li>
@@ -321,8 +320,10 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                 </h3>
               </li>
               <li>
-                <h3>Dra Rafaela Martelosso Secron <br>
-<span>CRM 22723/ RQE 13357</span></h3>
+                <h3>
+                  Dra Rafaela Martelosso Secron <br />
+                  <span>CRM 22723/ RQE 13357</span>
+                </h3>
               </li>
             </ul>
           </div>
@@ -344,11 +345,12 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
             <span>e Contato</span>
           </h2>
           <p>
-              Estamos localizados anexos à Oximed, Rua Célio Veiga, 395 - Barreiros, São José - SC, 88111-320
-</p>
-<p>Atendemos todo o estado de Santa Catarina, principalmente
-            na região da Grande Florianópolis, Balneário Camboriú e Vale do
-            Itajaí.
+            Nosso escritório é anexo à Oximed, Rua Célio Veiga, 395 - Barreiros,
+            São José - SC, 88111-320
+          </p>
+          <p>
+            Atendemos todo o estado de Santa Catarina, principalmente a região
+            da grande Florianópolis, Balneário Camboriú e Vale do Itajaí.
           </p>
           <p>
             47 <strong>9605-3830</strong> <br />
