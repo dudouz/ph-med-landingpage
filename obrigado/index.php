@@ -48,9 +48,9 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
     <title>Infectologia Hospitalar - PH Med - Santa Catarina</title>
     <link rel="stylesheet" href="/style.css" />
 
-    <link rel="stylesheet" type="text/css" href="/js/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./js/slick.css" />
 
-    <link rel="stylesheet" type="text/css" href="/js/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./js/slick-theme.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- Primary Meta Tags -->
@@ -100,7 +100,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
     <header id="home">
       <nav>
         <a href="/"
-          ><img src="img/logo.png" alt="PH Med Infectologia Hospitalar"
+          ><img src="./img/logo.png" alt="PH Med Infectologia Hospitalar"
         /></a>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -128,7 +128,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
               </div>
               <div>
                 <img
-                  src="img/ilustra-3.png"
+                  src="./img/ilustra-3.png"
                   alt="Atendimento adulto e pediátrico (Infectologia)"
                 />
               </div>
@@ -144,7 +144,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                   os resultados constantemente.
                 </p>
               </div>
-              <img src="img/ilustra-2.png" alt="Consultoria em infectologia" />
+              <img src="./img/ilustra-2.png" alt="Consultoria em infectologia" />
             </div>
           </div>
           <div>
@@ -159,7 +159,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                 </p>
               </div>
               <img
-                src="img/ilustra-1.png"
+                src="./img/ilustra-1.png"
                 alt="Serviço de controle de Infecções (SCIH)"
               />
             </div>
@@ -176,7 +176,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
                 </p>
               </div>
               <img
-                src="img/ilustra-4.png"
+                src="./img/ilustra-4.png"
                 alt="Equipes médicas especializadas"
               />
             </div>
@@ -256,11 +256,11 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
           </div>
           <div class="text-column">
             <ul class="client-list">
-              <li><img src="img/logo-hmrc.png" alt="" /></li>
-              <li><img src="img/logo-marieta.png" alt="" /></li>
-              <li><img src="img/logo-oximed.png" alt="" /></li>
-              <li><img src="img/logo-unimed.png" alt="" /></li>
-              <li><img src="img/logo-santa-luiza.png" alt="" /></li>
+              <li><img src="./img/logo-hmrc.png" alt="" /></li>
+              <li><img src="./img/logo-marieta.png" alt="" /></li>
+              <li><img src="./img/logo-oximed.png" alt="" /></li>
+              <li><img src="./img/logo-unimed.png" alt="" /></li>
+              <li><img src="./img/logo-santa-luiza.png" alt="" /></li>
             </ul>
           </div>
         </div>
@@ -360,7 +360,7 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
       type="text/javascript"
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
 
     <script>
       $(document).ready(function() {
