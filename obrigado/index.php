@@ -46,13 +46,13 @@ mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Infectologia Hospitalar - PH Med - Santa Catarina</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
-    <link rel="stylesheet" type="text/css" href="js/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/js/slick.css" />
 
-    <link rel="stylesheet" type="text/css" href="js/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/js/slick-theme.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <!-- Primary Meta Tags -->
     <title>Infectologia Hospitalar - PH Med - Santa Catarina</title>
     <meta
