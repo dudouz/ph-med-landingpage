@@ -269,6 +269,7 @@ main section {
   font-size: 64px;
 }
 .text-column {
+  box-shadow: -20px -30px 51px #00000012;
 }
 .text-column p {
   line-height: 38px;
@@ -282,6 +283,28 @@ main section {
   justify-content: space-around;
   align-items: center;
   align-content: space-around;
+}
+
+.team-list {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.team-list li {
+  padding: 30px;
+}
+.team-list h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #308bb3;
+}
+.team-list h3 span {
+  font-weight: 300;
+  font-size: 14px;
+  color: #42728f;
 }
 
 footer {
@@ -462,6 +485,15 @@ h5 {
   }
   .client-list li {
     margin-top: 16px;
+  }
+  .text-column {
+    box-shadow: none;
+    padding: 0;
+  }
+  .team-list {
+    margin-top: 64px;
+    flex-direction: column;
+    min-width: 100%;
   }
   .title-column {
     margin: 0 32px;
